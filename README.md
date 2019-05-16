@@ -18,5 +18,6 @@ Il y a 3 techniques différentes pour arriver au resultat attendu. Voici les 3 m
 **Tu n'est pas obligé d'utiliser le bouton "Generer une phrase !!"**
 
 ## Gros bonus de ninja
-Avec ton oeil aguerri de Wilder tu as surrement remarqué que les composants `SujetComponent`,`VerbeComponent` et `ComplementComponent` sont très similaires : même template HTML, même fonction `setSelected`, etc.
-Refactorise ton code pour ne plus avoir à utiliser `SujetComponent`,`VerbeComponent` et `ComplementComponent` mais à la place un component `ListWordsComponent` qui sera répété trois fois dans `DashboardComponent`. Il devra evidement prendre en entrée une liste de sujet ou de verbe ou de complement.....@Input() !!!
+Avec ton oeil aguerri de Wilder tu as surrement remarqué que les composants `SujetComponent`,`VerbeComponent` et `ComplementComponent` sont très similaires : même template HTML, même fonction `setSelected`, etc.\
+Refactorise ton code pour ne plus avoir à utiliser `SujetComponent`,`VerbeComponent` et `ComplementComponent` mais à la place un component `ListWordsComponent` qui sera répété trois fois dans `DashboardComponent`.\
+Il devra evidement prendre en entrée une liste de sujet ou de verbe ou de complement...`@Input()` et `<ng-content>` sont tes meilleurs amis pour ce bonus !!!
